@@ -9,6 +9,6 @@ router.get('/dogs', HomeController.getDogs);
 router.get('/cats', HomeController.getCats);
 router.get('/fishes', HomeController.getFishes);
 
-router.get('/searcg', SearchController.search);
+router.get('/search', SearchController.search);
 
 export default router;
